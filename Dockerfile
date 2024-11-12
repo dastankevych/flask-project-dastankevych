@@ -11,3 +11,5 @@ EXPOSE 8080
 
 
 CMD ["flask", "--app", "server.py", "run", "-h", "0.0.0.0", "-p", "8080"]
+
+EXPOSE 8080
